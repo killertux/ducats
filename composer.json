@@ -1,0 +1,22 @@
+{
+    "name": "killertux/ducats",
+    "description": "Decimal and Money library for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruno Clemente",
+            "email": "bruno.canguru@hotmail.com"
+        }
+    ],
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {"Ducats\\": "src/"}
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
